@@ -15,7 +15,7 @@ void main()
     int j = 1;
 
     printf("Enter the Record.\n\n");
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("Enter the book id : ");
         scanf("%d", &book[i].id);
@@ -28,7 +28,7 @@ void main()
     }
 
     printf("\nHere The Records \n\n");
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("%d.book id : %d \n", j, book[i].id);
         printf("  book Title : %s \n", book[i].title);
